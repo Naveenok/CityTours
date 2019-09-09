@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './Tour.scss';
 
 export default class Tour extends Component {
-    render() {
+    render(props) {
         return (
             <article className="tour">
                 <div className="img-container">
@@ -12,7 +12,7 @@ export default class Tour extends Component {
                     </span>
                 </div>
                 <div className="tour-info">
-                    <h3>city</h3>
+                    <h3>{props.key}.</h3>
                     <h4>name</h4>
                     <h5>info
                         <span>
