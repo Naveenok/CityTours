@@ -5,8 +5,8 @@ import Tour from '../Tour/Tour';
 export default class TourList extends Component {
     render() {
         return (
-            <section>
-                tourList
+            <section className="tourList">                
+                <Tour/>                
             </section>
         )
     }
