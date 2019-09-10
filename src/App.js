@@ -9,8 +9,7 @@ function App() {
   return (
     <div>
      <Navbar/>
-     <TourList/>
-     
+     <TourList/>     
     </div>
   );
 }
